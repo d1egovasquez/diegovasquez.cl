@@ -1,50 +1,54 @@
-// cpanel - site_templates/vcard_dev/assets/config.js.tt Copyright(c) 2016 cPanel, Inc.
-//                                                          All rights Reserved.
-// copyright@cpanel.net                                        http://cpanel.net
-// This code is subject to the cPanel license. Unauthorized copying is prohibited
+// Copyright(c) 2020 Diego Vasquez.
+//All rights Reserved.
+//contacto@diegovasquez.cl
+//https://www.diegovasquez.cl
+//Unauthorized copying is prohibited
+
 
 window.cpanel = {
     data: {
-        phone: "",
+        phone: "+56932152681",
         fax: "",
-        email: "",
+        email: "hola@diegovasquez.cl",
         address: "",
         social: [
-            
-            
+
+
             {
                 icon: 'twitter',
                 link: "https:\/\/www.twitter.com\/d1egovasquez"
             },
-            
-            
+
+
             {
                 icon: 'instagram',
                 link: "https:\/\/www.instagram.com\/d1egovasquez"
             },
-            
-            
-            
-            
+
+            {
+                icon: 'facebook',
+                link: "https:\/\/www.facebook.com\/d1egovasquez1"
+            },
+
+
+
         ]
     },
     style: {
         primary: "",
         accent: ""
     },
-    slides: [
-        {
-            prefix: "Hola, soy",
-            title: "Diego Vásquez",
-            subtitle: "UX Developer",
-            type: 'vcard',
-            backgroundImage: "",
-            backgroundColor: "",
-            color: "",
-            buttonText: "",
-            buttonLink: "",
-            biography: "",
-            portraitImage: ""
-        }
-    ]
+    slides: [{
+        prefix: "Hola, soy",
+        title: "Diego Vásquez",
+        subtitle: "UX Developer",
+        type: 'vcard',
+        backgroundImage: "",
+        backgroundColor: "",
+        color: "",
+        buttonText: "",
+        buttonLink: "",
+        biography: "",
+        portraitImage: ""
+    }]
 };
